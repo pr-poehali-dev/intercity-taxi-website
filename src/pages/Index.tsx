@@ -148,11 +148,11 @@ export default function Index() {
                 <div className="w-16 h-16 bg-taxi-gray rounded-full flex items-center justify-center mx-auto mb-4">
                   <Icon name="Car" size={32} className="text-taxi-black" />
                 </div>
-                <CardTitle className="text-2xl">Эконом</CardTitle>
+                <CardTitle className="text-2xl">Стандарт</CardTitle>
                 <p className="text-gray-600">Доступные поездки</p>
               </CardHeader>
               <CardContent className="text-center">
-                <div className="text-3xl font-bold text-taxi-yellow mb-4">25₽/км</div>
+                <div className="text-3xl font-bold text-taxi-yellow mb-4">30₽/км</div>
                 <ul className="space-y-2 text-left">
                   <li className="flex items-center">
                     <Icon name="Check" size={16} className="text-green-500 mr-2" />
@@ -289,7 +289,7 @@ export default function Index() {
                       <div>
                         <Label>Тариф</Label>
                         <select className="w-full mt-1 p-2 border border-gray-300 rounded-md">
-                          <option>Эконом</option>
+                          <option>Стандарт</option>
                           <option>Комфорт</option>
                           <option>Премиум</option>
                         </select>
@@ -344,7 +344,7 @@ export default function Index() {
                       <div>
                         <Label>Тариф</Label>
                         <select className="w-full mt-1 p-2 border border-gray-300 rounded-md">
-                          <option>Эконом</option>
+                          <option>Стандарт</option>
                           <option>Комфорт</option>
                           <option>Премиум</option>
                         </select>
