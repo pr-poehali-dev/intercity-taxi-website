@@ -41,7 +41,7 @@ export default function Index() {
           </div>
           <Button variant="outline" className="border-taxi-yellow text-taxi-black hover:bg-taxi-yellow">
             <Icon name="Phone" size={16} className="mr-2" />
-            +7 (800) 123-45-67
+            +7 920 212-23-12
           </Button>
         </nav>
       </header>
@@ -486,7 +486,7 @@ export default function Index() {
                   <Icon name="Phone" size={28} className="text-black" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Телефон</h3>
-                <p className="text-taxi-yellow text-lg font-semibold">+7 (800) 123-45-67</p>
+                <p className="text-taxi-yellow text-lg font-semibold">+7 920 212-23-12</p>
                 <p className="text-gray-300 text-sm">Круглосуточно</p>
               </div>
 
